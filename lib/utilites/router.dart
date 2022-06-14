@@ -1,7 +1,7 @@
 import 'package:ecommerceapp/utilites/routes.dart';
 import 'package:ecommerceapp/views/pages/LandingPageRoure.dart';
 import 'package:ecommerceapp/views/pages/authpage.dart';
-import 'package:ecommerceapp/views/pages/homepage.dart';
+import 'package:ecommerceapp/views/pages/bottom_navbar.dart';
 import 'package:flutter/cupertino.dart';
 
 Route<dynamic> onGenerate(RouteSettings settings) {
@@ -10,9 +10,9 @@ Route<dynamic> onGenerate(RouteSettings settings) {
       return CupertinoPageRoute(
           builder: (_) => const Authpage(), settings: settings);
 
-    case AppRoutes.homepageroute:
+    case AppRoutes.bottomNavBarRoute:
       return CupertinoPageRoute(
-          builder: (_) => const HomePgae(), settings: settings);
+          builder: (_) => const BottomNavBar(), settings: settings);
 
     case AppRoutes.landingPageRoute:
     default:

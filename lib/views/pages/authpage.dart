@@ -91,7 +91,7 @@ class _AuthpageState extends State<Authpage> {
                       onTap: () {
                         if (_formkey.currentState!.validate()) {
                           Navigator.of(context)
-                              .pushNamed(AppRoutes.homepageroute);
+                              .pushNamed(AppRoutes.bottomNavBarRoute);
                         }
                       }),
                   SizedBox(
@@ -112,6 +112,7 @@ class _AuthpageState extends State<Authpage> {
                             _authType = AuthFormType.login;
                           }
                         });
+                        _formkey.currentState!.reset();
                       },
                     ),
                   ),
