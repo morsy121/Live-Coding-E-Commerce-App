@@ -86,14 +86,11 @@ class HomePage extends StatelessWidget {
             height: 10,
           ),
           Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 10),
+            padding: const EdgeInsets.symmetric(horizontal: 24),
             child: Column(
               children: [
-                Padding(
-                  padding: const EdgeInsets.all(10),
-                  child: _buildHeaderOfList(context,
-                      title: "Sale", description: "super summer sale"),
-                ),
+                _buildHeaderOfList(context,
+                    title: "Sale", description: "super summer sale"),
                 const SizedBox(
                   height: 8,
                 ),

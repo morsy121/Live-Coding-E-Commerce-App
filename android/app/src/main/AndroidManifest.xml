@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.ecommerceapp">
+    package="com.morsy.flutter_ecommerce">
    <application
         android:label="ecommerceapp"
         android:name="${applicationName}"

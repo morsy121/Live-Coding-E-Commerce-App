@@ -37,7 +37,7 @@ class ListItemHome extends StatelessWidget {
                         borderRadius: BorderRadius.circular(16.0),
                         color: Colors.red),
                     child: Padding(
-                      padding: const EdgeInsets.all(8.0),
+                      padding: const EdgeInsets.all(4),
                       child: Center(
                           child: Text(
                         '${product.discountValue}%',
